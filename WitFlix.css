@@ -1,11 +1,33 @@
 body header {
     display: flex;
+    justify-content: space-between;
+}
+
+.witlogo {
+    max-width: 200px
 }
 
 body header nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+body header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 body header .search {
     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.search img {
+    max-width: 30px;
 }
