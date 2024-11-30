@@ -32,7 +32,7 @@ body header nav a {
     justify-content: center;
     gap: 1rem;
     align-items: center;
-    margin-right: 1%;
+    margin-right: 0.5rem;
 }
 
 .aramaKutusu {
@@ -82,6 +82,10 @@ body main {
 
 .tusun-kendisi {
     font-size: 1rem;
-    padding: 0.8rem 1.6rem
+    padding: 0.8rem 1.6rem;
+    background-color: rgb(255, 61, 61);
+    color: white;
+    border: 0px solid black;
+    border-radius: 0.7rem
 }
 
