@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 body header {
     display: flex;
     justify-content: space-between;
@@ -54,5 +59,10 @@ body header .search {
 .maturity-rating {
     border: 1px solid black;
     border-radius: 10%;
-    padding: 0 0.4% 0.3% 0.4%
+    padding: 0 0.4%
 }
+
+/* Belli ki body main kısmını ilerde flex 1 yapmak gerekcek, kenarda kalsın. */
+body main {
+}
+
