@@ -1,6 +1,7 @@
 body header {
     display: flex;
     justify-content: space-between;
+    font-weight: normal;
 }
 
 .witlogo {
@@ -35,4 +36,9 @@ body header .search {
 .search img {
     max-width: 2rem;
     border-radius: 0.5rem;
+}
+
+body main {
+    display: flex;
+    
 }
