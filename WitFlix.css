@@ -110,6 +110,8 @@ body .oneriler-bolumu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow-x: auto;
+    gap: 4rem;
 }
 
 .suggestion-item {
@@ -117,6 +119,14 @@ body .oneriler-bolumu {
     flex-direction: column;
     justify-content: center;
     gap: 0.4rem;
+    flex: 0 0 auto
+}
+
+.oneriler-bolumu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .yas-sure {
