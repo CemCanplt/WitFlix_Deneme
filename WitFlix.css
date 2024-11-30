@@ -38,7 +38,21 @@ body header .search {
     border-radius: 0.5rem;
 }
 
-body main {
+.hero-content {
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movie-info{
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.maturity-rating {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 0 0.4% 0.3% 0.4%
 }
