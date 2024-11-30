@@ -1,0 +1,11 @@
+body header {
+    display: flex;
+}
+
+body header nav {
+    display: flex;
+}
+
+body header .search {
+    display: flex;
+}
