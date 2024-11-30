@@ -10,7 +10,7 @@ body header {
 }
 
 .witlogo {
-    max-width: 200px
+    max-width: 13rem;
 }
 
 body header nav {
@@ -63,7 +63,7 @@ body header nav a {
 
 .maturity-rating {
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 0.2rem;
     padding: 0 0.2rem
 }
 
