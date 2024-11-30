@@ -69,7 +69,8 @@ body header nav a {
 
 /* Belli ki body main kısmını ilerde flex 1 yapmak gerekcek, kenarda kalsın. */
 body main,
-body .oneriler-bolumu {
+body .oneriler-bolumu,
+footer {
     padding: 0 2rem;
 }
 
@@ -153,4 +154,20 @@ body .oneriler-bolumu {
     border: 1px solid black;
     border-radius: 0.2rem;
     padding: 0 0.2rem
+}
+
+.telifli {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem ;
+}
+
+.telifli nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.telifli nav a {
+    text-decoration: none;
+    color: black;
 }
