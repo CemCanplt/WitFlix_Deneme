@@ -65,7 +65,7 @@ body header nav a {
 
 /* Belli ki body main kısmını ilerde flex 1 yapmak gerekcek, kenarda kalsın. */
 body main {
-    margin: 0 2%;
+    padding: 0 3%;
 }
 
 .film-ozellikleri {
