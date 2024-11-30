@@ -120,7 +120,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 0.4rem;
-    flex: 0 0 auto
+    flex: 0 0 auto;
 }
 
 .oneriler-bolumu {
@@ -170,4 +170,36 @@ footer {
 .telifli nav a {
     text-decoration: none;
     color: black;
+}
+
+.smicon {
+    max-width: 2.5rem;
+}
+
+.sosyal-medya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-google {
+    max-width: 8rem;
+}
+
+.uygulamalar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.copright {
+    max-width: 45vw;
+    flex: 0 0 auto;
 }
