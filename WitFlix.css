@@ -28,6 +28,10 @@ body header .search {
     align-items: center;
 }
 
+.aramaKutusu {
+    max-width: 8rem;
+} 
+
 .search img {
     max-width: 2rem;
     border-radius: 0.5rem;
