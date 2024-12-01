@@ -37,6 +37,8 @@ body header nav a {
 
 .aramaKutusu {
     max-width: 7rem;
+    max-height: 1rem;
+    font-size: 1rem;
 } 
 
 .search img {
@@ -208,4 +210,14 @@ footer {
     max-width: 45vw;
 }
 
-@media 
+@media (max-width: 420px) {
+    html {
+        font-size: 10px;
+    }
+    .oneriler-bolumu {
+        display: none;
+    }
+    body header nav {
+        display: none;
+    }
+}
