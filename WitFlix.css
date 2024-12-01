@@ -33,6 +33,7 @@ body header nav a {
     gap: 1rem;
     align-items: center;
     margin-right: 0.5rem;
+    flex: 0 0 auto;
 }
 
 .aramaKutusu {
@@ -210,6 +211,10 @@ footer {
     max-width: 45vw;
 }
 
+.mobil-baslik {
+    display: none;
+}
+
 @media (max-width: 420px) {
     html {
         font-size: 10px;
@@ -219,5 +224,37 @@ footer {
     }
     body header nav {
         display: none;
+    }
+    .mobil-baslik {
+        display: flex;
+        justify-content: center;
+    }
+    .mobil-baslik nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .store-resim {
+        flex-direction: row;
+    }
+    .uygulamalar {
+        order: 1;
+    }
+    .sosyal-medya {
+        order: 2;
+    }
+    .telifli {
+        order: 3;
+        margin-top: 2rem;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: baseline;
+        margin-top: 1rem;
+    }
+    .copright {
+        max-width: unset;
     }
 }
