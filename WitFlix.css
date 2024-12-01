@@ -219,9 +219,7 @@ footer {
     html {
         font-size: 10px;
     }
-    .oneriler-bolumu {
-        display: none;
-    }
+
     body header nav {
         display: none;
     }
