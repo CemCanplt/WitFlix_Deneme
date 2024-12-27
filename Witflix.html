@@ -1,205 +1,252 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="WitFlix.css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-        <title>WitFlix | Senin Dizin</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpdmOHSUnXTr9Q4iU//pwQqvOj3MBEyQzL500gYZYD5g+l7tPX6g8/CG0Qhul58+m4zLivS8F3z2+NLcPb++UHNvXRQ3JIK6PnQAL/9yWdCAQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- fas fa-star - Yıldız ; far fa-star - Boş Yıldız -->
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="WitFlix.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>WitFlix | Senin Dizin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpdmOHSUnXTr9Q4iU//pwQqvOj3MBEyQzL500gYZYD5g+l7tPX6g8/CG0Qhul58+m4zLivS8F3z2+NLcPb++UHNvXRQ3JIK6PnQAL/9yWdCAQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fas fa-star - Yıldız ; far fa-star - Boş Yıldız -->
+  </head>
 
-    <body>
-        <header>
-            <img class="witlogo" src="./Resimler/witflix-logo.svg" alt="witflix logosu">
-            <nav>
-                <a href="http://">Topic 1</a>
-                <a href="http://">Topic 2</a>
-                <a href="http://">Topic 3</a>
-                <a href="http://">Topic 4</a>
-            </nav>
-            <div class="search">
-                <input class="aramaKutusu" type="text" placeholder="Search">
-                <i class="fa-regular fa-bell"></i>
-                <img src="./Resimler/Tatlı Kedi.jpg" alt="Profil Fotoğrafı">
+  <body>
+    <header>
+      <img
+        class="witlogo"
+        src="./Resimler/witflix-logo.svg"
+        alt="witflix logosu"
+      />
+      <nav>
+        <a href="http://">Topic 1</a>
+        <a href="http://">Topic 2</a>
+        <a href="http://">Topic 3</a>
+        <a href="http://">Topic 4</a>
+      </nav>
+      <div class="search">
+        <input class="aramaKutusu" type="text" placeholder="Search" />
+        <i class="fa-regular fa-bell"></i>
+        <img src="./Resimler/Tatlı Kedi.jpg" alt="Profil Fotoğrafı" />
+      </div>
+    </header>
+    <section class="mobil-baslik">
+      <nav class="mobil-basliklar">
+        <a href="http://">Topic 1</a>
+        <a href="http://">Topic 2</a>
+        <a href="http://">Topic 3</a>
+        <a href="http://">Topic 4</a>
+      </nav>
+    </section>
+    <main>
+      <div class="hero-content">
+        <h1>MOVIE NAME</h1>
+        <div class="movie-info">
+          <div class="user-rating">
+            <span class="user-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </span>
+            <span class="imdb-rating">7.3 IMDB</span>
+          </div>
+          <span class="maturity-rating">+18</span>
+          <span class="duration">2h 21min</span>
+        </div>
+        <p class="film-aciklamasi">
+          Sessiz bir kasabada yaşayan bir yazar, yeni romanı için ilham ararken,
+          geçmişle ilgili karanlık sırları ortaya çıkarmaya başlar. Gizemli
+          olaylar, yazarı giderek daha tehlikeli bir oyunun içine çeker.
+          Gerçeklik ve hayal arasındaki sınırlar bulanıklaşırken, yazar kendi
+          aklına bile güvenememeye başlar.
+        </p>
+        <ul class="movie-details">
+          <li>
+            <span
+              ><span class="film-ozellikleri">Starring:</span> Cem Yılmaz, Çaycı
+              Hüseyin, Efe Uygaç</span
+            >
+          </li>
+          <li>
+            <span
+              ><span class="film-ozellikleri">Genre:</span> Gerilim,
+              Bilim-Kurgu, Komedi</span
+            >
+          </li>
+          <li>
+            <span
+              ><span class="film-ozellikleri">Tags:</span> Komedi, Çay, Şakacı
+              Adam, Aksiyon, Uzaylı İstilası, Kasaba</span
+            >
+          </li>
+        </ul>
+        <div class="btn btn-lg play-now-tusu">
+          <button class="tusun-kendisi">▶ Play Now</button>
+        </div>
+      </div>
+    </main>
+    <section class="oneriler-bolumu">
+      <div class="suggestion-row">
+        <div class="suggestion-title">
+          <h2>Populer Movies</h2>
+          <a class="tamamini-goster" href="">View All</a>
+        </div>
+        <div class="suggestion-content">
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-        </header>
-        <section class="mobil-baslik">
-            <nav class="mobil-basliklar">
-                <a href="http://">Topic 1</a>
-                <a href="http://">Topic 2</a>
-                <a href="http://">Topic 3</a>
-                <a href="http://">Topic 4</a>
-            </nav>
-        </section>
-        <main>
-            <div class="hero-content">
-                <h1>MOVIE NAME</h1>
-                <div class="movie-info">
-                    <div class="user-rating">
-                        <span class="user-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </span>
-                        <span class="imdb-rating">7.3 IMDB</span>
-                    </div>
-                    <span class="maturity-rating">+18</span>
-                    <span class="duration">2h 21min</span>
-                </div>
-                <p class="film-aciklamasi">Sessiz bir kasabada yaşayan bir yazar, yeni romanı için ilham ararken, geçmişle ilgili karanlık sırları ortaya çıkarmaya başlar. Gizemli olaylar, yazarı giderek daha tehlikeli bir oyunun içine çeker. Gerçeklik ve hayal arasındaki sınırlar bulanıklaşırken, yazar kendi aklına bile güvenememeye başlar.</p>
-                <ul class="movie-details">
-                    <li><span><span class="film-ozellikleri">Starring:</span> Cem Yılmaz, Çaycı Hüseyin, Efe Uygaç</span></li>
-                    <li><span><span class="film-ozellikleri">Genre:</span> Gerilim, Bilim-Kurgu, Komedi</span></li>
-                    <li><span><span class="film-ozellikleri">Tags:</span> Komedi, Çay, Şakacı Adam, Aksiyon, Uzaylı İstilası, Kasaba</span></li>
-                </ul>
-                <div class="btn btn-lg play-now-tusu">
-                    <button class="tusun-kendisi">▶ Play Now</button>
-                </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-        </main>
-        <section class="oneriler-bolumu" >
-            <div class="suggestion-row">
-                <div class="suggestion-title">
-                    <h2>Populer Movies</h2>
-                    <a class="tamamini-goster" href="">View All</a>
-                </div>
-                <div class="suggestion-content">
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-            <div class="suggestion-row">
-                <div class="suggestion-title">
-                    <h2>Recommened for You</h2>
-                    <a class="tamamini-goster" href="">View All</a>
-                </div>
-                <div class="suggestion-content">
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                    <div class="suggestion-item">
-                        <h2 class="onerilen-baslik">MOVIE NAME</h2>
-                            <div class="yas-sure">
-                                <span class="kucuk-yas-limiti">+16</span>
-                                <span class="alt-duration">2h 21min</span>
-                            </div>
-                        <button class="mini-tusun-kendisi">▶ Play Now</button>
-                    </div>
-                </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-        </section>
-        <footer>
-            <div class="telifli">
-                <nav>
-                    <a href="">Term Of Use</a>
-                    <a href="">Privacy Policiy</a>
-                    <a href="">FAQ</a>
-                    <a href="">Watch List</a>
-                </nav>
-                <p class="copright">Bu web sitesinde yer alan tüm metin, grafik, görüntü, video ve diğer materyaller keyfime aittir ve telif hakları yasaları ile korunmaktadır. Bu materyallerin izinsiz kullanımı, çoğaltılması, dağıtılması yasaktır.</p>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-            <div class="sosyal-medya">
-                <p>Follow Us</p>
-                <div class="resimlerim">
-                    <img class="smicon" src="./Resimler/facebook-icon.svg" alt="facebook">
-                    <img class="smicon" src="./Resimler/youtube-icon.svg" alt="youtube">
-                    <img class="smicon" src="./Resimler/twitter-icon.svg" alt="twitter">
-                </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-            <div class="uygulamalar">
-                <p>Apps</p>
-                <div class="store-resim">
-                    <img class="app-google" src="./Resimler/applestore.svg" alt="apple">
-                    <img class="app-google" src="./Resimler/googleplay.svg" alt="google">
-                </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="suggestion-row">
+        <div class="suggestion-title">
+          <h2>Recommened for You</h2>
+          <a class="tamamini-goster" href="">View All</a>
+        </div>
+        <div class="suggestion-content">
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
             </div>
-        </footer>
-    </body>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
+            </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
+            </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
+            </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
+            </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+          <div class="suggestion-item">
+            <h2 class="onerilen-baslik">MOVIE NAME</h2>
+            <div class="yas-sure">
+              <span class="kucuk-yas-limiti">+16</span>
+              <span class="alt-duration">2h 21min</span>
+            </div>
+            <button class="mini-tusun-kendisi">▶ Play Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="telifli">
+        <nav>
+          <a href="">Term Of Use</a>
+          <a href="">Privacy Policiy</a>
+          <a href="">FAQ</a>
+          <a href="">Watch List</a>
+        </nav>
+        <p class="copright">
+          Bu web sitesinde yer alan tüm metin, grafik, görüntü, video ve diğer
+          materyaller keyfime aittir ve telif hakları yasaları ile
+          korunmaktadır. Bu materyallerin izinsiz kullanımı, çoğaltılması,
+          dağıtılması yasaktır.
+        </p>
+      </div>
+      <div class="sosyal-medya">
+        <p>Follow Us</p>
+        <div class="resimlerim">
+          <img
+            class="smicon"
+            src="./Resimler/facebook-icon.svg"
+            alt="facebook"
+          />
+          <img class="smicon" src="./Resimler/youtube-icon.svg" alt="youtube" />
+          <img class="smicon" src="./Resimler/twitter-icon.svg" alt="twitter" />
+        </div>
+      </div>
+      <div class="uygulamalar">
+        <p>Apps</p>
+        <div class="store-resim">
+          <img class="app-google" src="./Resimler/applestore.svg" alt="apple" />
+          <img
+            class="app-google"
+            src="./Resimler/googleplay.svg"
+            alt="google"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
